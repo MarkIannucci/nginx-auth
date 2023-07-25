@@ -3,8 +3,8 @@
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = "js-nginx-auth"
-primary_region = "mad"
+app = "${FLY_APP_NAME}"
+primary_region = "${FLY_PRIMARY_REGION}"
 
 [http_service]
   internal_port = 80
