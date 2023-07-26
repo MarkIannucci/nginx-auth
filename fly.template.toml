@@ -3,7 +3,7 @@
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = "${FLY_APP_NAME}"
+app = "${PROXY_APP_NAME}"
 primary_region = "${FLY_PRIMARY_REGION}"
 
 [http_service]
